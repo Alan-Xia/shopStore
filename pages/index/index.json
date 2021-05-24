@@ -2,5 +2,5 @@
   "usingComponents": {
     "Search": "/components/Search/index"
   },
-  "navigationBarTitleText": "首页"
+  "navigationBarTitleText": "优购首页"
 }

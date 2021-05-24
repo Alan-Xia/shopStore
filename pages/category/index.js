@@ -10,6 +10,10 @@ Page({
     leftMenuList: [],
     // 商品数据
     rightContent: [],
+    // 下标
+    currentIndex: 0,
+    // 右侧内容的滚动条距离顶部距离
+    scrollTop: 0
   },
   // 接口的返回数据
   Cates: [],
@@ -51,6 +55,14 @@ Page({
         rightContent
       })
     })
-    
+  },
+  handleItemTap (e) {
+    let currentIndex = e.currentTarget.dataset.index
+    let rightContent = this.Cates[currentIndex].children
+    this.setData({
+      currentIndex,
+      rightContent,
+      scrollTop: 0
+    })
   }
 })
