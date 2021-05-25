@@ -26,7 +26,7 @@ Page({
       this.getCate()
     } else {
       // 暂时定义一个过期时间10s - 5min
-      if (Date.now() - CateList.time > 1000 * 10) {
+      if (Date.now() - CateList.time > 1000 * 60) {
         this.getCate()
       } else {
         this.Cates = CateList.data
