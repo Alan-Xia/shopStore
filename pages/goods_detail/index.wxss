@@ -7,7 +7,7 @@ page {
   text-align: center;
 }
 .detail_swiper swiper image {
-  width: 100%;
+  width: 65%;
 }
 .goods_price {
   padding: 15rpx;
