@@ -39,7 +39,7 @@ page {
   align-items: center;
   border-left: 2rpx solid #000;
 }
-.goods_name_row .goods_collect .icon-collection-b {
+.goods_name_row .goods_collect .icon-shoucang {
   color: orangered;
 }
 .goods_info .goods_info_title {

@@ -92,8 +92,6 @@ Page({
       if (res.confirm) {
         cart.splice(index, 1)
         this.setCart(cart)
-      } else if (res.cancel) {
-        console.log('用户点击取消')
       }
     } else {
       cart[index].num += operation
