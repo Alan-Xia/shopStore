@@ -86,7 +86,7 @@ Page({
     })
     if (index === -1) {
       this.shopDetail.num = 1
-      this.shopDetail.check = true
+      this.shopDetail.checked = true
       cart.push(this.shopDetail)
     } else {
       cart[index].num++
