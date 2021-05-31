@@ -1,0 +1,22 @@
+{
+  "name": "shopStore",
+  "version": "1.0.0",
+  "description": "wechat mini program\r # wechat\r 原生微信小程序开发",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com.cnpmjs.org/Alan-Xia/shopStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "miniprogram-sm-crypto": "^0.3.0"
+  }
+}
