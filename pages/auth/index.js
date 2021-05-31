@@ -37,5 +37,20 @@ Page({
       console.log(error)
     }
   },
+  getUserProfile (e) {
+    wx.getUserProfile({
+      desc: '获取用户信息',
+      success: (res) => {
+        console.log(res);
+      },
+      fail: (err) => {
+        wx.showToast({
+          title: '获取信息失败',
+          icon: "error",
+          mask: true
+        })
+      }
+    })
+  }
 
 })
